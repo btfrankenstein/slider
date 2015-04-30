@@ -41,7 +41,7 @@ function slider() {
         setIntervalID = setInterval(moveNext, intervalTime);
     });
 
-    //显示按扭
+    //显示按钮
     function activeBtn() {
         sliderBtn.find('li').eq(index).addClass('select').siblings().removeClass('select');
     }
